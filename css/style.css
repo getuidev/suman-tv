@@ -266,11 +266,13 @@ ul.footer_social li{margin-right:20px;width:20px;height:20px}
 @media(max-width:767px){
 .container-fluid{margin-top:96px}
 .container{padding:0 10px}
+.main-header .topNav{background-color: #fff;box-shadow: 0 0.5rem 1rem rgba(93,65,212,.12);}
 .topNav .topRmenu,.topNavLinks,.trendingLinks{display:none}
 .topNav .container{justify-content:space-between;padding:5px 10px}
 .topNav .topLmenu{flex:unset}
 .topNav .site-logo{margin-bottom:0}
 .topNav .site-logo img{max-width:150px}
+.MenuBtn i{border-color: #000;}
 .ColLayout,.common_section .section_wrapper .bigNews_wrapper,.common_section .section_wrapper .bigNews_wrapper .leftNews-col figure,.footer_wrapper,.movieNews_grid,.topNewsWrapper{flex-wrap:wrap}
 .common_section .section_wrapper .bigNews_wrapper .leftNews-col,.common_section .section_wrapper .bigNews_wrapper .leftNews-col figcaption,.left-col,.topNewsWrapper .topNewsLeftCol,.twoColumnLayout .rightCol{width:100%}
 .twoColumnLayout{flex-wrap:wrap;flex-direction:column-reverse}
@@ -280,15 +282,16 @@ ul.footer_social li{margin-right:20px;width:20px;height:20px}
 .common_section .section_wrapper .smallNews_wrapper,.photo-gallery .gallery_wrapper,.webStoryWrapper{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .common_section .section_wrapper .smallNews_wrapper::-webkit-scrollbar,.photo-gallery .gallery_wrapper::-webkit-scrollbar,.webStoryWrapper::-webkit-scrollbar{display:none}
 .common_section .section_wrapper .smallNews_wrapper figure,.photo-gallery .gallery_wrapper figure,.webStoryWrapper figure{width:69.2%;flex:0 0 auto}
-.menuNavigation{padding-top:0;top:86px}
+.menuNavigation{padding-top:0;top:86px;background-color: #fff;}
 .menuNavigation ul.listItems{padding-bottom:30px;display:flex}
 .menuNavigation ul.listItems>li{width:100%;text-align:left;line-height:30px;padding:5px 0;margin:0;border:none;position:relative}
 .menuNavigation ul.listItems li ul.subItems{display:none}
-.menuNavigation ul.listItems li a.catHead{font-size:18px}
+.menuNavigation ul.listItems li>a{color:#000}
+.menuNavigation ul.listItems li a.menuHead{font-size:18px;color:#000}
 .menuNavigation ul.listItems li.active .subItems{display:block;padding-left:20px}
 .listItems li span{border:solid #000;border-width:0 1px 1px 0;display:inline-block;padding:4px;transform:rotate(-45deg);-webkit-transform:rotate(-45deg);position:absolute;right:10px;top:14px}
 .listItems li.active span{transform:rotate(45deg);-webkit-transform:rotate(45deg)}
-.menuNavigation .listItems li span{border-color:#fff}
+.menuNavigation .listItems li span{border-color:#000}
 .leftSidebar,.rightSidebar{width:100%}
 .breadcrum ul{white-space:nowrap;overflow-x:auto;overflow-y:hidden;flex-wrap:nowrap}
 p.sub-title{margin-bottom:5px}
