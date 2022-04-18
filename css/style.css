@@ -25,15 +25,15 @@ a.more-btn{color:#575455;font-size:14px;text-transform:capitalize}
 .MenuBtn i{width:24px;display:block;border-top:2px solid #fff;padding-top:4px}
 .MenuBtn i:nth-child(2){top:23px;margin-left:0}
 .MenuBtn i:nth-child(3){top:27px}
-.menuNavigation{width:100%;display:none;float:left;padding:20px 0 100px 0;color:#fff;position:fixed;top:100px;left:0;z-index:8;height:100vh;background:#f61f60;overflow:auto}
+.menuNavigation{width:100%;display:none;float:left;padding:20px 0 100px 0;color:#000;position:fixed;top:100px;left:0;z-index:8;height:100vh;background:#fff;overflow:auto}
 .menuNavigation::-webkit-scrollbar{width:0}
 .menuNavigation::-webkit-scrollbar-track{background:#101f35}
 .menuNavigation::-webkit-scrollbar-thumb{background:#101f35}
 .menuNavigation::-webkit-scrollbar-thumb:hover{background:#101f35}
 .menuNavigation ul.listItems{list-style:none;padding:0;margin:0;justify-content:flex-start;flex-wrap:wrap;-moz-column-count:5;column-count:5}
 .menuNavigation ul.listItems>li{margin-bottom:15px}
-.menuNavigation ul.listItems li>a{text-decoration:none;transition:color .4s ease 0s;text-align:center;-webkit-font-smoothing:antialiased;color:#fff;font-size:16px;line-height:12px;margin-bottom:12px}
-.menuNavigation ul.listItems li a.menuHead{font-weight:700;font-size:18px;margin-bottom:10px;color:#fff}
+.menuNavigation ul.listItems li>a{text-decoration:none;transition:color .4s ease 0s;text-align:center;-webkit-font-smoothing:antialiased;color:#000;font-size:16px;line-height:12px;margin-bottom:12px}
+.menuNavigation ul.listItems li a.menuHead{font-weight:700;font-size:18px;margin-bottom:10px;color:#000}
 .menuNavigation ul.listItems li ul.subItems{padding-top:5px}
 body.openMenu .MenuBtn{padding:4px 0 3px 0}
 body.openMenu .MenuBtn i{padding-top:0}
